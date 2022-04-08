@@ -28,7 +28,7 @@
      dest: /usr/share/tomcat/conf/tomcat-users.xml
   - name: enable service tomcat
     systemd:
-     name: tomcat
+     name: tomcat1
      enabled: yes
   - name: start service tomcat
     systemd:
